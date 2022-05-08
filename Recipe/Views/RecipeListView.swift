@@ -1,6 +1,6 @@
 //
 //  RecipeListView.swift
-//  Recipe List
+//  Recipe
 //
 //  Created by 정호윤 on 2022/05/08.
 //

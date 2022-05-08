@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B51D1B928278C76005D26FE /* Recipe List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B51D1B928278C76005D26FE /* Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B51D1BC28278C76005D26FE /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
 		7B51D1BE28278C76005D26FE /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		7B51D1C028278C78005D26FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		7B51D1B028278C76005D26FE = {
 			isa = PBXGroup;
 			children = (
-				7B51D1BB28278C76005D26FE /* Recipe List */,
+				7B51D1BB28278C76005D26FE /* Recipe */,
 				7B51D1BA28278C76005D26FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		7B51D1BA28278C76005D26FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B51D1B928278C76005D26FE /* Recipe List.app */,
+				7B51D1B928278C76005D26FE /* Recipe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B51D1BB28278C76005D26FE /* Recipe List */ = {
+		7B51D1BB28278C76005D26FE /* Recipe */ = {
 			isa = PBXGroup;
 			children = (
 				7B51D1BC28278C76005D26FE /* Recipe_List_App.swift */,
@@ -70,7 +70,7 @@
 				7B51D1C028278C78005D26FE /* Assets.xcassets */,
 				7B51D1C228278C78005D26FE /* Preview Content */,
 			);
-			path = "Recipe List";
+			path = Recipe;
 			sourceTree = "<group>";
 		};
 		7B51D1C228278C78005D26FE /* Preview Content */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B51D1B828278C76005D26FE /* Recipe List */ = {
+		7B51D1B828278C76005D26FE /* Recipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B51D1C728278C78005D26FE /* Build configuration list for PBXNativeTarget "Recipe List" */;
+			buildConfigurationList = 7B51D1C728278C78005D26FE /* Build configuration list for PBXNativeTarget "Recipe" */;
 			buildPhases = (
 				7B51D1B528278C76005D26FE /* Sources */,
 				7B51D1B628278C76005D26FE /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = "Recipe List";
+			name = Recipe;
 			productName = "Recipe List";
-			productReference = 7B51D1B928278C76005D26FE /* Recipe List.app */;
+			productReference = 7B51D1B928278C76005D26FE /* Recipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B51D1B428278C76005D26FE /* Build configuration list for PBXProject "Recipe List" */;
+			buildConfigurationList = 7B51D1B428278C76005D26FE /* Build configuration list for PBXProject "Recipe" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B51D1B828278C76005D26FE /* Recipe List */,
+				7B51D1B828278C76005D26FE /* Recipe */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Recipe List/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Recipe/Preview Content\"";
 				DEVELOPMENT_TEAM = K9M6C75JFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -340,8 +340,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stem.Recipe-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stem.Recipe;
+				PRODUCT_NAME = Recipe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Recipe List/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Recipe/Preview Content\"";
 				DEVELOPMENT_TEAM = K9M6C75JFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -369,8 +369,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stem.Recipe-List";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stem.Recipe;
+				PRODUCT_NAME = Recipe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B51D1B428278C76005D26FE /* Build configuration list for PBXProject "Recipe List" */ = {
+		7B51D1B428278C76005D26FE /* Build configuration list for PBXProject "Recipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B51D1C528278C78005D26FE /* Debug */,
@@ -389,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B51D1C728278C78005D26FE /* Build configuration list for PBXNativeTarget "Recipe List" */ = {
+		7B51D1C728278C78005D26FE /* Build configuration list for PBXNativeTarget "Recipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B51D1C828278C78005D26FE /* Debug */,
