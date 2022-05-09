@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct RecipeListView: View {
-    // Reference the VM
-    @ObservedObject var model = RecipeModel()
+    
+    @EnvironmentObject var model: RecipeModel
     
     var body: some View {
-        
         NavigationView {
             List(model.recipes) { recipe in
                 NavigationLink {
@@ -33,7 +32,6 @@ struct RecipeListView: View {
             .listStyle(.plain)
             .navigationTitle("All Recipes")
         }
-        
     }
 }
 
