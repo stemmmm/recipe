@@ -22,7 +22,7 @@ struct RecipeFeaturedView: View {
             GeometryReader { geometry in
                 TabView {
                     // Loop through each recipe
-                    ForEach(0..<model.recipes.count) { index in
+                    ForEach(0 ..< model.recipes.count) { index in
                         // Only show those that should be featured
                         if model.recipes[index].featured {
                             // Recipe card
